@@ -15,10 +15,6 @@ body{
   @apply font-bold text-3xl mb-12 relative after:content-[""] after:absolute after:-bottom-4 after:left-0 after:w-12 after:h-1 after:bg-primaryColor after:rounded-lg
 }
 
-.nav-link {
-  @apply h-fit font-medium hover:text-primaryColor ease-linear duration-200
-}
-
 .section-in-about {
   @apply bg-dark-500 p-5 rounded-xl hover:bg-dark-100 ease-linear duration-300
 }

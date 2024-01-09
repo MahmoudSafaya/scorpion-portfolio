@@ -1,30 +1,31 @@
 import React from 'react'
 import ParticlesBg from '../components/ParticlesBg'
-import { Outlet, Link } from 'react-router-dom'
+import { Outlet } from 'react-router-dom'
 import Footer from '../components/Footer'
+import NavItem from '../components/NavItem'
 
 const Layout = () => {
     return (
         <>
             <header className='w-full mx-auto py-10 flex justify-between items-center'>
-                <nav className='w-[90%] md:w-3/4 lg:w-2/5 mx-auto py-2  border border-gray-800 rounded-full'>
-                    <ul className="navbar-links h-full flex justify-evenly items-center">
-                        <li className='nav-link'>
-                            <Link to='/'>Home</Link>
+                <nav className='w-[90%] md:w-3/4 lg:w-2/5 mx-auto py-2 border border-dark-500 rounded-full'>
+                    <ul className="h-full flex justify-evenly items-center">
+                        <li>
+                            <NavItem route='' />
                         </li>
-                        <li className='nav-link'>
-                            <Link to='/about'>About</Link>
+                        <li>
+                            <NavItem route='about' />
                         </li>
-                        <li className='nav-link'>
-                            <Link to='/portfolio'>Portfolio</Link>
+                        <li>
+                            <NavItem route='portfolio' />
                         </li>
-                        <li className='nav-link'>
-                            <Link to='/contact'>Contact</Link>
+                        <li>
+                            <NavItem route='contact' />
                         </li>
                     </ul>
                 </nav>
             </header>
-            
+
             <ParticlesBg className="relative z-10" />
 
             <Outlet />

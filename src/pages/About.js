@@ -7,12 +7,11 @@ import { SiJavascript, SiTypescript, SiJquery, SiTailwindcss, SiNextdotjs } from
 import { TbBrandRedux } from "react-icons/tb";
 
 
-
-
 const About = () => {
   return (
     <div className='about container w-[85%] md:w-3/4 lg:w-3/5 mx-auto mt-12 relative z-20'>
       <div className='bg-dark-300 py-5 px-5 sm:px-10 rounded-2xl text-gray-200'>
+
         <section className='section-in-about my-5 relative before:absolute before:top-1/2 before:-translate-y-1/2 before:left-10 before:bg-gray-500 before:content-[""] before:w-[1px] before:h-4/5 before:mt-1 before:z-10'>
           <div className='flex justify-start items-center mb-8'>
             <span className='rounded-xl shadow-xl w-10 h-10 mr-3 bg-dark-300 flex justify-center items-center z-20'>
@@ -60,7 +59,7 @@ const About = () => {
               <p className='mt-3 font-semibold'>CSS</p>
             </div>
             <div className='flex flex-col justify-center items-center'>
-              <p className='text-5xl text-primaryColor'><SiJavascript  /></p>
+              <p className='text-5xl text-primaryColor'><SiJavascript /></p>
               <p className='mt-3 font-semibold'>JavaScript</p>
             </div>
             <div className='flex flex-col justify-center items-center'>
@@ -112,6 +111,7 @@ const About = () => {
             <CVButton />
           </div>
         </section>
+        
       </div>
     </div>
   )
