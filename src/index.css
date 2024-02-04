@@ -26,6 +26,9 @@ body{
   @apply text-primaryColor bg-dark-200 mt-4 shadow-md hover:bg-dark-100 hover:text-gray-100 focus:ring-[#1F1F1F]/50 font-semibold rounded-lg text-sm px-5 py-3 text-center inline-flex items-center cursor-pointer ease-linear duration-200
 }
 
+.nav-link{
+  @apply hover:text-primaryColor duration-200 ease-in-out
+}
 
 .line-circle::before {
   width: 2px;

@@ -25,7 +25,7 @@ const Home = () => {
               Currently, I'm working at AMS Alafaf Medical Company, but I'm seeking new opportunities.
             </p>
           </div>
-          <div className='w-1/3 md:w-1/5 md:mx-auto mb-2 md:mb-0'>
+          <div className='w-1/3 md:w-1/5 mb-2 md:mb-0'>
             <img src='mahmoudsafaya.jpg' alt='mahmoud safaya' className='rounded-lg' />
           </div>
         </div>
