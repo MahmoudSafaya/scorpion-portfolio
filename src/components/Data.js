@@ -52,60 +52,66 @@ const PortfolioProjects = [
       url: 'https://youtube-clone-coral-gamma.vercel.app/',
       image: 'images/project-02.png',
       tech: ['React.js', 'MaterialUI']
+    },{
+      id: 4,
+      name: 'Currency Converter',
+      url: 'https://currency-converter-bay-mu.vercel.app/',
+      image: 'images/project-12.png',
+      tech: ['React.js']
     },
     {
-      id: 4,
+      id: 5,
       name: 'myReads',
       url: 'https://myreads-books.vercel.app/',
       image: 'images/project-03.png',
       tech: ['React.js']
     },
     {
-      id: 5,
+      id: 6,
       name: 'Starred Github Repos',
       url: 'https://starred-github-repos-one.vercel.app/',
       image: 'images/project-04.png',
       tech: ['React.js']
     },
     {
-      id: 6,
+      id: 7,
       name: 'Shopping Cart',
       url: 'https://shopping-cart-gold-two.vercel.app/',
       image: 'images/project-05.png',
       tech: ['Vanilla JavaScript']
     },
     {
-      id: 7,
+      id: 8,
       name: 'Dips',
       url: 'https://mahmoudsafaya.github.io/Dips/',
       image: 'images/project-06.png'
     },
     {
-      id: 8,
+      id: 9,
       name: 'News Blog',
       url: 'https://mahmoudsafaya.github.io/otaku/',
       image: 'images/project-07.png'
     },
     {
-      id: 9,
+      id: 10,
       name: 'Restaurant',
       url: 'https://mahmoudsafaya.github.io/Crazy_Resturant/',
       image: 'images/project-08.png'
     },
     {
-      id: 10,
+      id: 11,
       name: 'Save A Link',
       url: 'https://save-link-bice.vercel.app/',
       image: 'images/project-09.png'
     },
     {
-      id: 11,
+      id: 12,
       name: 'Weather',
       url: 'https://mahmoudsafaya.github.io/weather/',
       image: 'images/project-10.png'
     },
     {
-      id: 12,
+      id: 13,
       name: 'Red Store',
       url: 'https://mahmoudsafaya.github.io/redStore/',
       image: 'images/project-11.png'

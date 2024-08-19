@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Mahmoud Safaya",
+  "name": "Mahmoud Safaya Portfolio",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,12 +8,12 @@
       "type": "image/x-icon"
     },
     {
-      "src": "ms-logo.png",
+      "src": "mahmoudsafaya.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "ms-logo.png",
+      "src": "mahmoudsafaya.png",
       "type": "image/png",
       "sizes": "512x512"
     }
