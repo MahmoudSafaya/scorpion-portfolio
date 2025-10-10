@@ -1,41 +1,48 @@
 const HomeProjects = [
   {
     id: 1,
-    name: "Cars Showcase",
-    url: "https://car-showcase-zeta-one.vercel.app/",
-    image: "images/project-00.png",
-    tech: ["Next.js", "Typescript", "TailwindCSS"],
+    name: "Diva Store",
+    url: "https://divastoree.com/",
+    image: "images/project-14.png",
+    tech: ["React.js", "Api Integeration", "TailwindCSS"],
   },
   {
     id: 2,
-    name: "Article Summary",
-    url: "https://article-summary-pied.vercel.app/",
-    image: "images/project-01.png",
-    tech: ["Next.js", "Typescript", "TailwindCSS"],
-  },
-  {
-    id: 3,
     name: "Youtube Clone",
     url: "https://youtube-clone-coral-gamma.vercel.app/",
     image: "images/project-02.png",
     tech: ["Next.js", "Typescript", "TailwindCSS"],
   },
   {
+    id: 3,
+    name: "Cars Showcase",
+    url: "https://car-showcase-zeta-one.vercel.app/",
+    image: "images/project-00.png",
+    tech: ["Next.js", "Typescript", "TailwindCSS"],
+  },
+  {
     id: 4,
-    name: "Food Delivery",
-    url: "https://food-delivery-beta-six.vercel.app/",
-    image: "images/project-13.png",
-    tech: ["React.js", "Context API"],
+    name: "Article Summary",
+    url: "https://article-summary-pied.vercel.app/",
+    image: "images/project-01.png",
+    tech: ["Next.js", "Typescript", "TailwindCSS"],
   },
 ];
 
 const PortfolioProjects = [
   {
+    id: 0,
+    name: "Diva Store",
+    url: "https://divastoree.com/",
+    image: "images/project-14.png",
+    tech: ["React.js", "Api Integeration", "TailwindCSS"],
+  },
+  {
     id: 1,
-    name: "Cars Showcase",
-    url: "https://car-showcase-zeta-one.vercel.app/",
-    image: "images/project-00.png",
-    tech: ["Next.js", "Typescript", "TailwindCSS"],
+    name: "Youtube Clone",
+    url: "https://youtube-clone-coral-gamma.vercel.app/",
+    image: "images/project-02.png",
+    tech: ["React.js", "MaterialUI"],
   },
   {
     id: 2,
@@ -46,10 +53,10 @@ const PortfolioProjects = [
   },
   {
     id: 3,
-    name: "Youtube Clone",
-    url: "https://youtube-clone-coral-gamma.vercel.app/",
-    image: "images/project-02.png",
-    tech: ["React.js", "MaterialUI"],
+    name: "Cars Showcase",
+    url: "https://car-showcase-zeta-one.vercel.app/",
+    image: "images/project-00.png",
+    tech: ["Next.js", "Typescript", "TailwindCSS"],
   },
   {
     id: 4,
